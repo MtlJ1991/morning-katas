@@ -1,7 +1,17 @@
 // Please do not change the name of this function
 var dnaPairs = function (dna) {
   
-	// your coder here
+	const pairs = {
+    A: 'T',
+    C: 'G',
+    T: 'A',
+    G: 'C'
+  }
+
+  let result = [];
+  dna.forEach(letter => {
+    if (pairs[letter]) result.push([letter, pairs[letter]])
+  })
 
 };
 
