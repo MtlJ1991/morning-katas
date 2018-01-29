@@ -6,14 +6,8 @@ var {getTweetData} = require(path.join(__dirname, '..', './getTweetData.js'));
 describe('getTweetData()', function () {
   'use strict';
 
-  it('exists', function () {
-    expect(getTweetData).to.be.a('function');
+  it('ADD TEST AND RENAME', function () {
 
   });
-
-  it('takes a single tweet argument', function () {
-    expect(getTweetData.length).to.equal(1);
-  });
-
 
 });
